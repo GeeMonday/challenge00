@@ -7,7 +7,8 @@ challenge00
 #dollar amount in a varaiable called sub_total
 # Input
 print "Enter the subtotal: $"
-sub_total = gets.chomp.to_f
+sub_total = gets.chomp.to_f    #This is used to read the user input and remove the trailing newline character
+                                #from input string while it converts the input into a floating point number
 #sub_total = 5.00
 # GST  rate
 GST = 0.04
@@ -19,7 +20,7 @@ pst_amount = sub_total * PST
 grand_total = sub_total + GST + PST  
 puts "sub total: $#{sub_total}"
 puts "PST: $#{GST} - #{(GST * 100).to_i}%"
-puts "GST: $#{PST} - #{(PST * 100).to_i}%"
+puts "GST: $#{PST} - #{(PST * 100).to_i}%" # added a methodd to convert to integer
 puts "Grand Total: $#{grand_total}"
 
 # Display message based on grand total

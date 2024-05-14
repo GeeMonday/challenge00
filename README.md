@@ -1,7 +1,7 @@
 # Description
 # This Ruby script calculates the GST (Goods and Services Tax), PST (Provincial Sales Tax), and Grand Total based on a user-input subtotal. It then displays the breakdown of each tax component and the grand total, along with a message based on the total amount.
 
-# How to Use
+## How to Use
 # Run the script in a Ruby environment.
 # Enter the subtotal amount when prompted.
 # The script will calculate the GST, PST, and Grand Total, and display the breakdown.

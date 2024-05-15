@@ -15,7 +15,7 @@
 # Example
 ## Enter the subtotal: $25.00
 ## Subtotal: $25.0
-## PST: $0.04 - 4%
-## GST: $0.02 - 2%
+## PST: $1.75 - 7%
+## GST: $1.25 - 5%
 ## Grand Total: $25.06
 ## Charge It!

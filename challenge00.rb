@@ -6,7 +6,7 @@ challenge00
 
   print "Enter the subtotal: "
   sub_total = gets.chomp.to_f #This is used to read the user input and remove the trailing newline character
-                              #from input string while it converts the input into a floating point numb
+                              #from input string while it converts the input into a floating point number
   
   # Constants for tax rates
   GST_RATE = 0.07
